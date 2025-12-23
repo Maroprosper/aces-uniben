@@ -45,8 +45,8 @@ export default function Header() {
                 className={clsx(
                   "text-md transition-colors duration-200",
                   pathname === link.href
-                    ? "text-[#0FACAC] font-bold"
-                    : "text-black hover:text-[#0FACAC] font-semibold"
+                    ? "text-[#0FACAC] font-semibold"
+                    : "text-[#2F327D] hover:text-[#0FACAC]"
                 )}
               >
                 {link.name}
